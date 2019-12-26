@@ -93,3 +93,4 @@ let You = YourPhone?.type
 if let TypeVal = You{
     print("Your Phone Type \(TypeVal)")
 }
+//End Day 1

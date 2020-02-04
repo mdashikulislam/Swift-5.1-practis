@@ -55,8 +55,15 @@ extension FirstViewController: UITableViewDelegate, UITableViewDataSource{
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell") as! TableViewCell
         cell.getData(data: path)
         return cell
-        
     }
     
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let path = watchArray[indexPath.row]
+        let cell = storyboard?.instantiateViewController(identifier: "ViewDetails") as! DetailsViewController
+        cell.data = path
+        
+        self.navigationController?.pushViewController(cell, animated: true)
+        
+        
+    }
 }

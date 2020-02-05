@@ -19,6 +19,10 @@
 		4F7CD15223E824E4005A9DD2 /* Watch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7CD15123E824E4005A9DD2 /* Watch.swift */; };
 		4F7CD15423E82D94005A9DD2 /* ViewDetails.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F7CD15323E82D94005A9DD2 /* ViewDetails.storyboard */; };
 		4F7CD15623E82DD9005A9DD2 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7CD15523E82DD9005A9DD2 /* DetailsViewController.swift */; };
+		4FD8B3D623EAA1580098F930 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD8B3D523EAA1580098F930 /* ThirdViewController.swift */; };
+		4FD8B3D823EAAB630098F930 /* AlertDialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FD8B3D723EAAB630098F930 /* AlertDialog.xib */; };
+		4FD8B3DA23EAB03F0098F930 /* AlertDailog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD8B3D923EAB03F0098F930 /* AlertDailog.swift */; };
+		4FD8B3DC23EACA520098F930 /* ThirdShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD8B3DB23EACA520098F930 /* ThirdShowViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +40,10 @@
 		4F7CD15123E824E4005A9DD2 /* Watch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Watch.swift; sourceTree = "<group>"; };
 		4F7CD15323E82D94005A9DD2 /* ViewDetails.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ViewDetails.storyboard; sourceTree = "<group>"; };
 		4F7CD15523E82DD9005A9DD2 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		4FD8B3D523EAA1580098F930 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		4FD8B3D723EAAB630098F930 /* AlertDialog.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlertDialog.xib; sourceTree = "<group>"; };
+		4FD8B3D923EAB03F0098F930 /* AlertDailog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertDailog.swift; sourceTree = "<group>"; };
+		4FD8B3DB23EACA520098F930 /* ThirdShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdShowViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +84,11 @@
 				4F7CD14F23E8206D005A9DD2 /* TableViewCell.swift */,
 				4F7CD15523E82DD9005A9DD2 /* DetailsViewController.swift */,
 				4F47735223E93F2A00EEBE14 /* CollectionViewCell.swift */,
+				4FD8B3D523EAA1580098F930 /* ThirdViewController.swift */,
+				4FD8B3D923EAB03F0098F930 /* AlertDailog.swift */,
+				4FD8B3DB23EACA520098F930 /* ThirdShowViewController.swift */,
 				4F7CD14123E81EF1005A9DD2 /* Main.storyboard */,
+				4FD8B3D723EAAB630098F930 /* AlertDialog.xib */,
 				4F7CD15323E82D94005A9DD2 /* ViewDetails.storyboard */,
 				4F7CD14423E81EF3005A9DD2 /* Assets.xcassets */,
 				4F7CD14623E81EF3005A9DD2 /* LaunchScreen.storyboard */,
@@ -147,6 +159,7 @@
 				4F7CD14523E81EF3005A9DD2 /* Assets.xcassets in Resources */,
 				4F7CD15423E82D94005A9DD2 /* ViewDetails.storyboard in Resources */,
 				4F7CD14323E81EF1005A9DD2 /* Main.storyboard in Resources */,
+				4FD8B3D823EAAB630098F930 /* AlertDialog.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,12 +171,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F7CD15023E8206D005A9DD2 /* TableViewCell.swift in Sources */,
+				4FD8B3D623EAA1580098F930 /* ThirdViewController.swift in Sources */,
+				4FD8B3DA23EAB03F0098F930 /* AlertDailog.swift in Sources */,
 				4F7CD15223E824E4005A9DD2 /* Watch.swift in Sources */,
 				4F47735323E93F2A00EEBE14 /* CollectionViewCell.swift in Sources */,
 				4F7CD14023E81EF1005A9DD2 /* SecondViewController.swift in Sources */,
 				4F7CD13E23E81EF1005A9DD2 /* FirstViewController.swift in Sources */,
 				4F7CD15623E82DD9005A9DD2 /* DetailsViewController.swift in Sources */,
 				4F7CD13A23E81EF1005A9DD2 /* AppDelegate.swift in Sources */,
+				4FD8B3DC23EACA520098F930 /* ThirdShowViewController.swift in Sources */,
 				4F7CD13C23E81EF1005A9DD2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

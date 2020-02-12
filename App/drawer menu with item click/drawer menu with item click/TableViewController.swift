@@ -22,6 +22,7 @@ class TableViewController : UITableViewController{
        
         let redriect = storyboard?.instantiateViewController(identifier: "Notification") as! NotificationSettingViewController
         
+        
         self.navigationController?.pushViewController(redriect, animated: true)
         
     }

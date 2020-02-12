@@ -28,8 +28,8 @@
 		4F14F03123EC086F00F21DE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F14F03323EC086F00F21DE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F14F03923EC0FB500F21DE0 /* drawer menu with item click-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "drawer menu with item click-Bridging-Header.h"; sourceTree = "<group>"; };
-		4F14F03A23EC0FB700F21DE0 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
-		4F14F03B23EC0FB700F21DE0 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		4F14F03A23EC0FB700F21DE0 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "../../Core CRUD App/Core CRUD App/SWRevealViewController.h"; sourceTree = "<group>"; };
+		4F14F03B23EC0FB700F21DE0 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "../../Core CRUD App/Core CRUD App/SWRevealViewController.m"; sourceTree = "<group>"; };
 		4F14F03D23EC236900F21DE0 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		4F14F03F23EC2A7200F21DE0 /* NotificationSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,12 +70,12 @@
 				4F14F02523EC086D00F21DE0 /* AppDelegate.swift */,
 				4F14F02723EC086D00F21DE0 /* SceneDelegate.swift */,
 				4F14F02923EC086D00F21DE0 /* ViewController.swift */,
+				4F14F03923EC0FB500F21DE0 /* drawer menu with item click-Bridging-Header.h */,
 				4F14F02B23EC086D00F21DE0 /* Main.storyboard */,
 				4F14F03F23EC2A7200F21DE0 /* NotificationSettingViewController.swift */,
 				4F14F02E23EC086F00F21DE0 /* Assets.xcassets */,
 				4F14F03023EC086F00F21DE0 /* LaunchScreen.storyboard */,
 				4F14F03323EC086F00F21DE0 /* Info.plist */,
-				4F14F03923EC0FB500F21DE0 /* drawer menu with item click-Bridging-Header.h */,
 			);
 			path = "drawer menu with item click";
 			sourceTree = "<group>";

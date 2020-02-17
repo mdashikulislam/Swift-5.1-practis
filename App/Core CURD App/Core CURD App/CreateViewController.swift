@@ -8,7 +8,7 @@
 
 import UIKit
 import CoreData
-class CreateViewController: UIViewController {
+class CreateViewController: UIViewController , UITextFieldDelegate{
 
     @IBOutlet weak var btnDrawerMenu: UIBarButtonItem!
     @IBOutlet weak var lblCreate: UILabel!
@@ -21,9 +21,19 @@ class CreateViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         cornerRadius()
-       showDrawerMenu()
-        
+        showDrawerMenu()
+        self.hideKeyboard()
+        self.txtUserName.delegate = self
+        self.txtEmail.delegate = self
+        self.txtFullName.delegate = self
+        self.txtPassword.delegate = self
     }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        self.view.endEditing(true)
+        return true
+    }
+
     //Cornur Radious
     func cornerRadius(){
         lblCreate.layer.cornerRadius = 5
@@ -124,6 +134,7 @@ class CreateViewController: UIViewController {
         data.setValue(email, forKey: "email")
         data.setValue(pass, forKey: "password")
         do{
+            
             try manageContext.save()
             defaultBorder(name: txtUserName)
             defaultBorder(name: txtFullName)

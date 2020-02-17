@@ -8,7 +8,7 @@
 
 import UIKit
 import CoreData
-
+import NotificationCenter
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -18,6 +18,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         let paths = NSSearchPathForDirectoriesInDomains(FileManager.SearchPathDirectory.documentDirectory, FileManager.SearchPathDomainMask.userDomainMask, true)
         print(paths[0])
+        
+        UNUserNotificationCenter.current().requestAuthorization(options: [.badge,.alert,.sound]){
+            (guranted,error)
+            in
+            if guranted{
+                print("user give you the permission")
+            }else{
+                print("No permission not given")
+            }
+        }
         return true
     }
 

@@ -49,6 +49,21 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         // Save changes in the application's managed object context when the application transitions to the background.
         (UIApplication.shared.delegate as? AppDelegate)?.saveContext()
+        
+        let center = UNUserNotificationCenter.current()
+        let content = UNMutableNotificationContent()
+        content.title = "Reminder Alert"
+        content.body = "Prepare for namaz and go to mosque"
+        content.sound = .default
+        
+        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 60, repeats: true)
+        let request = UNNotificationRequest(identifier: "rimander", content: content, trigger: trigger)
+        center.add(request){(error) in
+            if error != nil{
+                print("Error \(error?.localizedDescription ?? "From local notification")")
+            }
+        }
+        
     }
 
 

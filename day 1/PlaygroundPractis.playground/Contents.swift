@@ -13,6 +13,7 @@ let a = 10
 let b = 20
 let c = a+b
 print(c)
+
 // Empty String Check
 let check = ""
 if check.isEmpty {
@@ -30,7 +31,8 @@ if v1 == v2 {
     print("Not same")
 }
 
-// Array declaration
+
+ Array declaration
 var arr = [String]()
 arr = ["a","b","C"]
 print(arr[0])
@@ -93,4 +95,23 @@ let You = YourPhone?.type
 if let TypeVal = You{
     print("Your Phone Type \(TypeVal)")
 }
-//End Day 1
+//End Day
+
+struct Devicee {
+    var type:String
+    var price: Float
+    var coler: String
+}
+var myphone :Device?
+MyPhone = Device(type: "Iphone", price: 33.3, color: "Space gray")
+
+var yourPhone : Device?
+YourPhone = Device(type: "Android", price: 200, color: "Gray")
+let diviceprice = MyPhone?.price
+if let priceval = devicePrice{
+    print("Total price is \(priceval*6)")
+}
+let you = YourPhone?.type
+if let Typeval = You{
+    print("Your phone Type \(Typeval)")
+}
